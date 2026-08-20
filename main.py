@@ -24,3 +24,8 @@ print("Name:", name)
 print("Total:", total)
 print("Average:", average)
 print("Grade:", grade)
+
+if average >= 50:
+    print("Status: PASS")
+else:
+    print("Status: FAIL")
